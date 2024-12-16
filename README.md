@@ -7,10 +7,15 @@ SiTa provides audio clips accompanied by Rich Transcription Time Marked (RTTM) f
 
 ## Google Document
 The google sheet provides the youtube links from which the audio clips were extracted as well as start time end time details. 
+Full catalogue of the dataset sources can be found [here](#https://github.com/SiTa-SpeakerDiarization/SiTa/blob/main/SiTa%20Audio%20Source%20Info.xlsx)
 
 ## Audio Files  
-- **Development Set:** Audio files for the development set can be downloaded [here](#).  
-- **Test Set:** Audio files for the test set can be downloaded [here](#).  
+- **SiTa Dataset:**
+- Audio files for the Tamil dataset can be downloaded [here](#https://drive.google.com/drive/folders/1vrjfe4YQEkU_Zo34UzLYC8tYe1UG1WjB).
+- Audio files for the Sinhala dataset can be downloaded [here](#https://drive.google.com/drive/folders/1xjHhMdpEKVO8kEEyFJmVi22J8gZvHS6R).
+- Please request access if the dataset is not available to the public.
+
+ 
 
 ## Speaker Diarization Annotations  
 Annotations are provided in RTTM format and are organized within the `dev` and `test` folders. These annotations ensure precise time-stamped speaker labels for each audio clip.  
