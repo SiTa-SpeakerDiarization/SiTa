@@ -20,7 +20,8 @@ Full catalog of the dataset sources can be found [here](https://github.com/SiTa-
 Annotations provided in RTTM format are organized within the `manual_sorted_rttm` folders. These annotations ensure precise time-stamped speaker labels for each audio clip.  
 
 ## Updates and Additional Information  
-For the latest updates and detailed information about SiTa, please contact:  
+For the latest updates and detailed information about SiTa, please contact:
+*   rtuthaya@cse.mrt.ac.lk
 *   thulasithan.20@cse.mrt.ac.lk
 *   kasuni.20@cse.mrt.ac.lk
 *   shamila.20@cse.mrt.ac.lk
