@@ -2,34 +2,42 @@
 
 [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
-**SiTa** is a diarization dataset featuring multispeaker audio clips in the Sinhala and Tamil languages. The dataset is curated to support research in speaker diarization and related audio processing tasks. It includes high-quality annotations for accurate evaluation.
+**SiTa** is a speaker diarization dataset featuring multispeaker audio clips in Sinhala and Tamil. It is designed to support research in speaker diarization and related audio processing tasks. The dataset consists of two subsets: one for Sinhala and another for Tamil, containing 10 hours of Sinhala audio and 2 hours of Tamil audio. All audio clips are provided in WAV format at 16kHz, along with Rich Transcription Time Marked (RTTM) files for speaker diarization annotations. The dataset includes high-quality annotations to ensure accurate evaluation.
 
 📜 **Paper :** [SiTa - Sinhala and Tamil Speaker Diarization Dataset in the Wild](https://aclanthology.org/2025.chipsal-1.8/)
 
 🌐 **Website :** [sita-speakerdiarization.github.io](https://sita-speakerdiarization.github.io/)
 
-## Dataset Overview
-
-The SiTa dataset has two subsets, one for Sinhala and another for Tamil. It provides audio clips in WAV format accompanied by Rich Transcription Time Marked (RTTM) files containing speaker diarization annotations. The dataset contains 10 hours of Sinhala audio and 2 hours of Tamil audio.
+## Dataset Organization
 
 ### List of YouTube Videos
 
-The given Excel sheet provides the youtube links from which the audio clips were extracted as well as start time end time details.
-Full catalog of the dataset sources can be found [here](https://github.com/SiTa-SpeakerDiarization/SiTa/blob/main/SiTa%20Audio%20Source%20Info.xlsx)
+A complete list of dataset sources is available in the provided [Excel sheet](https://github.com/SiTa-SpeakerDiarization/SiTa/blob/main/SiTa%20Audio%20Source%20Info.xlsx). It contains links to the original YouTube videos, along with the start and end times indicating the exact segment extracted from each video.
 
-### Audio Files
+### Data Files
 
-- **SiTa Dataset:**
-- Audio files for the Sinhala and Tamil dataset can be downloaded [here](https://rtuthaya.staff.uom.lk/contact-for-resources).
-- Please request access if the dataset is not available to the public. We are currently working on arranging alternative hosting for the dataset.
+To request access to the dataset's data files, please fill out the form [here](https://rtuthaya.staff.uom.lk/contact-for-resources). The dataset is openly available for academic purposes.
 
-### RTTM Annotations
+Folder structure of the dataset:
 
-Annotations provided in RTTM format are organized within the `manual_sorted_rttm` folders. These annotations ensure precise time-stamped speaker labels for each audio clip.
+```
+SiTa_dataset
+|
+│── sinhala
+│   ├── wav_files                 # Directory containing Sinhala audio clips in WAV format
+│   ├── rttm                      # Directory containing speaker diarization annotations in RTTM format
+│
+│── tamil
+│   ├── wav_files                 # Directory containing Tamil audio clips in WAV format
+│   ├── rttm                      # Directory containing speaker diarization annotations in RTTM format
+|
+│── SiTa Audio Source Info.xlsx   # Spreadsheet containing metadata about the audio sources
+
+```
 
 ## Updates and Additional Information
 
-For the latest updates and detailed information about SiTa, please contact:
+For the latest updates, detailed information, or to report issues about the SiTa dataset, please contact:
 
 - rtuthaya@cse.mrt.ac.lk
 - thulasithan.20@cse.mrt.ac.lk
